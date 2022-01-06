@@ -1,2 +1,5 @@
-# readme-generator
-Simple read me generator 
+
+        Name: Nate
+        Age:21
+        Job:Dev
+        
