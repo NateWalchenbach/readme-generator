@@ -3,9 +3,10 @@ module.exports = {
 };
 
 function createTemplate(data) {
+  const { name, age, job } = data;
   return `
-        Name: ${data.name}
-        Age:${data.age}
-        Job:${data.job}
+        Name: ${name}
+        Age:${age}
+        Job:${job}
         `;
 }

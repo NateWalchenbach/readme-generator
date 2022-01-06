@@ -5,10 +5,6 @@ const fs = require("fs");
 
 const questions = [
   {
-    message: "What is the title",
-    name: "title",
-  },
-  {
     message: "What is your name?",
     name: "name",
   },
@@ -25,7 +21,7 @@ const questions = [
 inquirer
   .prompt(questions)
   .then((data) => {
-    fs.writeFileSync(`${data.title}.md`, template.createTemplate(data));
+    fs.writeFileSync(`Readme.md`, template.createTemplate(data));
   })
   .catch((err) => {
     console.log(err);
