@@ -12,20 +12,50 @@ function createTemplate(data) {
     contribute,
     test,
     questions,
+    email,
+    github,
   } = data;
   return `
-#Title: ${title}
-TABLE OF CONTENTS:
-Description:${description}
-Installation Requirements: ${install}
-Usage: ${usage}
-Contributions:${contribute}         
-Test: ${test}
-Usage: ${usage}
-Questions: ${questions}
+# **${title}**
+## TABLE OF CONTENTS:
+### -[Description](#description)
+### -[Installation](#installation)
+### -[Usage](#usage)
+### -[License](#license)
+### -[Contact Me](#email)
+
+### **Description:** 
+#### ${description}
+
+### **Installation Requirements:** 
+#### ${install}
+
+### **Usage:** 
+#### ${usage}
+
+### **License:** 
+#### ${license}
+
+### **Contributions:**
+#### ${contribute}
+
+### **Test:** 
+#### ${test}
+
+### **Usage:** 
+#### ${usage}
+
+### **Questions??:** 
+#### ${questions}
 
 
-Contact me: ${email}
+## **Contact me:** 
+If you have any questions feel free to reach out to me at my email below. 
+
+Email -  ${email}
+
+If you are interested in seeing any of my work, click the link below.
+Github - 'https://github.com/${github}'
 `;
 }
 

@@ -33,7 +33,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is your job title?",
+    message: "What are your contributions?",
     name: "contriubte",
   },
   {
@@ -50,6 +50,11 @@ const questions = [
     type: "input",
     message: "Please enter your email address",
     name: "email",
+  },
+  {
+    type: "input",
+    message: "Please enter your github username",
+    name: "github",
   },
 ];
 
