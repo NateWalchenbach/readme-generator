@@ -32,7 +32,7 @@ If you have questions or need to report issues, please contact me:
 
 Email: natewalchenbach24@gmail.com
 
-Github: github.com/natewalchenbach
+Github: https://github.com/natewalchenbach
 
 ## License
 
