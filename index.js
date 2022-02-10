@@ -27,9 +27,10 @@ const questions = [
   },
   {
     type: "list",
-    message: "Please select a valid license",
-    choices: ["License 1", "License 2", "License 3", "License 4"],
+    message:
+      "Which license should be applied to this project? (Use arrow keys to change selection and enter to select.)",
     name: "license",
+    choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "None"],
   },
   {
     type: "input",
@@ -61,7 +62,7 @@ const questions = [
 inquirer
   .prompt(questions)
   .then((data) => {
-    fs.writeFileSync(`Readme.md`, template.createTemplate(data));
+    fs.writeFileSync(`Sample_Readme.md`, template.createTemplate(data));
   })
   .catch((err) => {
     console.log(err);
