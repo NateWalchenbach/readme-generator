@@ -25,16 +25,16 @@ function createTemplate(data) {
 ### -[Contact Me](#email)
 
 ### **Description:** 
-#### ${description}
+ ${description}
 
 ### **Installation Requirements:** 
-#### ${install}
+ ${install}
 
 ### **Usage:** 
-#### ${usage}
+ ${usage}
 
 ### **License:** 
-#### ${license}
+ ${license}
 
 ### **Contributions:**
 #### ${contribute}
@@ -43,10 +43,10 @@ function createTemplate(data) {
 #### ${test}
 
 ### **Usage:** 
-#### ${usage}
+ ${usage}
 
 ### **Questions??:** 
-#### ${questions}
+${questions}
 
 
 ## **Contact me:** 
