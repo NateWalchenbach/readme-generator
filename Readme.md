@@ -39,5 +39,3 @@ Github: github.com/natewalchenbach
 This application is covered under the following license: MIT.
 
 For more information about this license, click [here](https://opensource.org/licenses/MIT)
-
-[video](https://drive.google.com/file/d/1Wjh042Wnqx9nkfktR2vI_RXF0KpAAHQe/view?usp=sharing)
