@@ -30,7 +30,7 @@ const questions = [
     message:
       "Which license should be applied to this project? (Use arrow keys to change selection and enter to select.)",
     name: "license",
-    choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "None"],
+    choices: ["MIT", "Apache 2.0", "GPL 3.0", "None"],
   },
   {
     type: "input",

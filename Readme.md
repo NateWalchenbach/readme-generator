@@ -1,41 +1,43 @@
+[![](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/)
 
-# **ReadMe**
-## TABLE OF CONTENTS:
-### -[Description](#description)
-### -[Installation](#installation)
-### -[Usage](#usage)
-### -[License](#license)
-### -[Contact Me](#email)
+# README Generator
 
-### **Description:** 
-#### The purpose of this project is to create a professional readme generator to further use in future applicatioins
+## Description
 
-### **Installation Requirements:** 
-#### To install run node index.js to generate
+This README generator allows the user to quickly and easily create a readme.md file for their application or project. It auto-creates you titles and a table of contents to save you time and energy.
 
-### **Usage:** 
-#### The intent of this project is to create a readme generator
+## Table of Contents
 
-### **License:** 
-#### License 1
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#howtocontribute)
+- [Questions](#questions)
+- [License](#license)
 
-### **Contributions:**
-#### undefined
+## Installation
 
-### **Test:** 
-#### no tests have been written
+To install this project, you may fork it directly from my GitHub.
 
-### **Usage:** 
-#### The intent of this project is to create a readme generator
+## Usage
 
-### **Questions??:** 
-#### I do not have any questions at the moment
+To use this application, you simply type node index.js into your integrated terminal. After that you will be asked a series of questions. You will need to type your answer then press enter. Some questions are multiple choice so you can use your arrow keys or use the numbers on your keyboard.
 
+## How to Contribute
 
-## **Contact me:** 
-If you have any questions feel free to reach out to me at my email below. 
+To contribute to this project you may contact me at my email below.
 
-Email -  natewalchenbach24@gmail.com
+## Questions
 
-If you are interested in seeing any of my work, click the link below.
-Github - 'https://github.com/natewalchenbach'
+If you have questions or need to report issues, please contact me:
+
+Email: natewalchenbach24@gmail.com
+
+Github: github.com/natewalchenbach
+
+## License
+
+This application is covered under the following license: MIT.
+
+For more information about this license, click [here](https://opensource.org/licenses/MIT)
+
+[video](https://drive.google.com/file/d/1Wjh042Wnqx9nkfktR2vI_RXF0KpAAHQe/view?usp=sharing)
