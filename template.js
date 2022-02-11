@@ -1,3 +1,5 @@
+const renderLicense = require("./renderLicense");
+const renderLicenseSection = require("./renderLicenseSection");
 module.exports = {
   createTemplate,
 };
@@ -15,6 +17,10 @@ function createTemplate(data) {
     email,
     github,
   } = data;
+
+  const licenseImage = renderLicense(license);
+  const licenseContent = renderLicenseSection(license);
+
   return `
 # **${title}**
 ## TABLE OF CONTENTS:
@@ -34,7 +40,8 @@ function createTemplate(data) {
  ${usage}
 
 ### **License:** 
- ${license}
+ ${licenseImage}
+ ${licenseContent}
 
 ### **Contributions:**
 #### ${contribute}
